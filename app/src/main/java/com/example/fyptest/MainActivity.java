@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
                 member.setHeight(height);
                 member.setPhoneNo(phoneNo);
 
-                reff.push().setValue(member);
+                reff.child("member 1").setValue(member);
                 Toast.makeText(MainActivity.this, "Data Inserted Successfully",Toast.LENGTH_LONG).show();
             }
         });
