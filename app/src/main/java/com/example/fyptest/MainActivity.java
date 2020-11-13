@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                 member.setPhoneNo(phoneNo);
 
                 reff.push().setValue(member);
-                Toast.makeText(MainActivity.this, "Data Insert Successful",Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, "Data Inserted Successfully",Toast.LENGTH_LONG).show();
             }
         });
 
